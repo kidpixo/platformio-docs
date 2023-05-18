@@ -45,6 +45,7 @@ Please use ``sparkfun_promicro16`` ID for :ref:`projectconf_env_board` option in
   [env:sparkfun_promicro16]
   platform = atmelavr
   board = sparkfun_promicro16
+  framework = arduino
 
 You can override default SparkFun Pro Micro 5V/16MHz settings per build environment using
 ``board_***`` option, where ``***`` is a JSON object path from
@@ -56,7 +57,8 @@ board manifest `sparkfun_promicro16.json <https://github.com/platformio/platform
   [env:sparkfun_promicro16]
   platform = atmelavr
   board = sparkfun_promicro16
-
+  framework = arduino
+  
   ; change microcontroller
   board_build.mcu = atmega32u4
 
